@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'redditclone'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('redditclone');
+    expect(app.title1).toEqual('redditclone');
   });
 
   it('should render title', () => {

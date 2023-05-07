@@ -1,0 +1,11 @@
+<h1>Fibonnanci Sequence</h1>
+<div>
+  <label for="n">Enter a number:</label>
+  <input type="number" [(ngModel)]="n" id="n">
+  <button (click)="calculate()">calcul</button>
+  <br><br>
+</div>
+<div *ngIf="result != null">
+  The {{ n }}th number in the Fibonacci sequence is {{ result }}.
+</div>
+
